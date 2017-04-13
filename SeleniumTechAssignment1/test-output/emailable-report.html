@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">35.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">signupautomation.VerifyLinkText</td><td><a href="#m1"><b>run</b>  </a></td><td class="numi">1</td><td>1492059533829</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">signupautomation.VerifyLinkText</td><td><a href="#m2"><b>testEmailFail</b>  </a></td><td class="numi">1</td><td>1492059519826</td><td class="numi">14001</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">signupautomation.VerifyLinkText</td><td><a href="#m3"><b>testHomePage</b>  </a></td><td class="numi">1</td><td>1492059499529</td><td class="numi">9491</td></tr><tr class="passedodd"><td><a href="#m4"><b>testLoginPage</b>  </a></td><td class="numi">1</td><td>1492059509021</td><td class="numi">8892</td></tr><tr class="passedodd"><td><a href="#m5"><b>testSignUpPage</b>  </a></td><td class="numi">1</td><td>1492059517914</td><td class="numi">301</td></tr><tr class="passedodd"><td><a href="#m6"><b>testEmailSuccess</b>  </a></td><td class="numi">1</td><td>1492059518217</td><td class="numi">1608</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">signupautomation.VerifyLinkText:run</h2>
+<div style="padding-left:3em">
+<p>chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.12.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;Hardik-Ranjan.local&apos;, ip: &apos;fe80:0:0:0:1099:1091:83cc:85e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/tr/nl8dnlhn4zl4pdrggg7q6zx40000gn/T/.org.chromium.Chromium.zfUS26}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fe79ee72bc9d4173b828dbb7dc4cb186</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:490)
+<br/>at signupautomation.VerifyLinkText.run(VerifyLinkText.java:71)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">signupautomation.VerifyLinkText:testEmailFail</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+2017-04-13 10:28:39.827 [info]  Navigate Back To Login Page<br/>
+2017-04-13 10:28:41.058 [info]  Open SignUp Page<br/>
+2017-04-13 10:28:43.242 [info]  Enter Email Id from Already Registered EmailId<br/>
+2017-04-13 10:28:43.559 [info]  SignUp Button Is Clicked<br/>
+<h3>Failure</h3>
+<p>Expected condition failed: waiting for visibility of element located by By.cssSelector: .js-alert-container (tried for 10 second(s) with 500 MILLISECONDS interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+<br/>at Utils.Util.waitVisibilityConditionByCssSelector(Util.java:42)
+<br/>at Checker.RegisterationChecker.verifySignUpFailure(RegisterationChecker.java:42)
+<br/>at signupautomation.VerifyLinkText.testEmailFail(VerifyLinkText.java:66)
+<br/>25 lines not shown
+<p>Caused by no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f),platform=Mac OS X 10.12.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;Hardik-Ranjan.local&apos;, ip: &apos;fe80:0:0:0:1099:1091:83cc:85e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.2&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455517 (2c6d2707d8ea850c862f04ac066724273981e88f), userDataDir=/var/folders/tr/nl8dnlhn4zl4pdrggg7q6zx40000gn/T/.org.chromium.Chromium.zfUS26}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fe79ee72bc9d4173b828dbb7dc4cb186
+*** Element info: {Using=css selector, value=.js-alert-container}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:396)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:472)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:898)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:208)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:204)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+<br/>at Utils.Util.waitVisibilityConditionByCssSelector(Util.java:42)
+<br/>at Checker.RegisterationChecker.verifySignUpFailure(RegisterationChecker.java:42)
+<br/>at signupautomation.VerifyLinkText.testEmailFail(VerifyLinkText.java:66)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">signupautomation.VerifyLinkText:testSignUpPage</h2>
+<div style="padding-left:3em">
+2017-04-13 10:28:37.915 [Verify]  Verify If Appdirect SignUp Page is Displayed<br/>
+2017-04-13 10:28:37.982 [Verify]  Verify If SignUpPage Title is correct<br/>
+2017-04-13 10:28:37.987 [info]  Enter EmailId in SignUp Text<br/>
+2017-04-13 10:28:38.122 [info]  Writing Entered Email Id in Property File<br/>
+2017-04-13 10:28:38.125 [info]  SignUp Button Is Clicked<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">signupautomation.VerifyLinkText:testHomePage</h2>
+<div style="padding-left:3em">
+2017-04-13 10:28:19.537 [info]  Open Appdirect HomePage<br/>
+2017-04-13 10:28:28.897 [Verify]  Verify If Appdirect HomePage Title<br/>
+2017-04-13 10:28:28.904 [Verify]  Verify If Appdirect HomePage is Displayed<br/>
+2017-04-13 10:28:28.946 [info]  Open Login Page<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">signupautomation.VerifyLinkText:testLoginPage</h2>
+<div style="padding-left:3em">
+2017-04-13 10:28:35.669 [Verify]  Verify If Appdirect LoginPage Title<br/>
+2017-04-13 10:28:35.678 [info]  Open SignUp Page<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">signupautomation.VerifyLinkText:testEmailSuccess</h2>
+<div style="padding-left:3em">
+2017-04-13 10:28:39.8 [Verify]  Verify SignUp Success<br/>
+2017-04-13 10:28:39.825 [info]  Succcessfully SignedUp<br/>
+2017-04-13 10:28:39.825 [info]  Thanks for registering.<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

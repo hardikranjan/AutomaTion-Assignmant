@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="Utils.Listener"/>
+  </listeners>
+  <test name="test1(failed)">
+    <classes>
+      <class name="signupautomation.VerifyLinkText">
+        <methods>
+          <include name="run"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- signupautomation.VerifyLinkText -->
+      <class name="signupautomation.VerifyPage">
+        <methods>
+          <include name="testEmailFail"/>
+          <include name="testEmailSuccess"/>
+        </methods>
+      </class> <!-- signupautomation.VerifyPage -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite1] -->
